@@ -10,7 +10,6 @@ const Currency = () => {
                 payload: val,
             })
     }
-    
 
   return (
         <div className='alert alert-secondary'> Currency {

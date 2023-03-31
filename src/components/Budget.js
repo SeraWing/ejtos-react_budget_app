@@ -1,4 +1,4 @@
-import React, { useContext,useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { AppContext } from '../context/AppContext';
 const Budget = () => {
     const { budget,setBudget } = useState();
@@ -10,7 +10,6 @@ const Budget = () => {
                 <input
                     required='required'
                     type='number'
-                    id='budget'
                     value={budget}
                     onChange={(event) => setBudget(event.target.value)}
                     return>
